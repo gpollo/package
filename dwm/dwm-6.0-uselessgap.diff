@@ -1,0 +1,47 @@
+diff -u a/config.def.h b/config.def.h
+--- a/config.def.h	2011-12-19 10:02:46.000000000 -0500
++++ b/config.def.h	2015-05-15 14:40:33.263469948 -0400
+@@ -9,6 +9,7 @@
+ static const char selbgcolor[]      = "#005577";
+ static const char selfgcolor[]      = "#eeeeee";
+ static const unsigned int borderpx  = 1;        /* border pixel of windows */
++static const unsigned int gappx     = 6;        /* gap pixel between windows */
+ static const unsigned int snap      = 32;       /* snap pixel */
+ static const Bool showbar           = True;     /* False means no bar */
+ static const Bool topbar            = True;     /* False means bottom bar */
+diff -u a/dwm.c b/dwm.c
+--- a/dwm.c	2011-12-19 10:02:46.000000000 -0500
++++ b/dwm.c	2015-05-15 14:39:34.204471481 -0400
+@@ -258,6 +258,7 @@
+ static int screen;
+ static int sw, sh;           /* X display screen geometry width, height */
+ static int bh, blw = 0;      /* bar geometry */
++static int globalborder;     /* useless border */
+ static int (*xerrorxlib)(Display *, XErrorEvent *);
+ static unsigned int numlockmask = 0;
+ static void (*handler[LASTEvent]) (XEvent *) = {
+@@ -1351,10 +1352,20 @@
+ resizeclient(Client *c, int x, int y, int w, int h) {
+ 	XWindowChanges wc;
+ 
+-	c->oldx = c->x; c->x = wc.x = x;
+-	c->oldy = c->y; c->y = wc.y = y;
+-	c->oldw = c->w; c->w = wc.width = w;
+-	c->oldh = c->h; c->h = wc.height = h;
++    if(c->isfloating || selmon->lt[selmon->sellt]->arrange == NULL) {
++        globalborder = 0;
++    } else {
++        if(selmon->lt[selmon->sellt]->arrange == monocle) {
++            globalborder = 0 - borderpx;
++        } else {
++            globalborder =  gappx;
++        }
++    }
++
++    c->oldx = c->x; c->x = wc.x = x + globalborder ;
++    c->oldy = c->y; c->y = wc.y = y + globalborder ;
++    c->oldw = c->w; c->w = wc.width = w - 2 * globalborder ;
++    c->oldh = c->h; c->h = wc.height = h - 2 * globalborder ;
+ 	wc.border_width = c->bw;
+ 	XConfigureWindow(dpy, c->win, CWX|CWY|CWWidth|CWHeight|CWBorderWidth, &wc);
+ 	configure(c);
