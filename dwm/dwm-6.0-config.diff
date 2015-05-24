@@ -6,7 +6,8 @@
 +#define MINECRAFTC "net-minecraft-bootstrap-Bootstrap"
 +
  /* appearance */
- static const char font[]            = "Sans 8";
+-static const char font[]            = "Sans 8";
++static const char font[]            = "Ubuntu Mono";
  static const char normbordercolor[] = "#444444";
 -static const char normbgcolor[]     = "#222222";
 -static const char normfgcolor[]     = "#bbbbbb";
