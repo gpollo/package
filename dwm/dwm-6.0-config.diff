@@ -1,6 +1,5 @@
-diff -u a/config.def.h b/config.def.h
---- a/config.def.h	2015-05-15 14:50:13.917454875 -0400
-+++ b/config.def.h	2015-05-15 14:54:48.464447748 -0400
+--- A/config.def.h	2015-05-23 16:37:15.777186938 -0400
++++ B/config.def.h	2015-05-23 16:50:17.823856245 -0400
 @@ -1,16 +1,20 @@
  /* See LICENSE file for copyright and license details. */
  
@@ -28,7 +27,7 @@ diff -u a/config.def.h b/config.def.h
  static const Bool showbar           = True;     /* False means no bar */
  static const Bool topbar            = True;     /* False means bottom bar */
  static const Bool statusmarkup      = True;     /* True means use pango markup in status message */
-@@ -19,9 +23,15 @@
+@@ -19,9 +23,16 @@
  static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
  
  static const Rule rules[] = {
@@ -36,18 +35,19 @@ diff -u a/config.def.h b/config.def.h
 -	{ "Gimp",     NULL,       NULL,       0,            True,        -1 },
 -	{ "Firefox",  NULL,       NULL,       1 << 8,       False,       -1 },
 +	/* class              instance    title       tags mask     isfloating   monitor */
-+	{ "Gimp",             NULL,       NULL,       NULL,              True,       -1 },
++	{ "Gimp",             NULL,       NULL,       NULL,              True,        -1 },
 +	{ "Transmission-gtk", NULL,       NULL,       1 << 4,            False,       -1 },
 +	{ "Thunderbird",      NULL,       NULL,       1 << 5,            False,       -1 },
 +	{ "Hexchat",          NULL,       NULL,       1 << 6,            False,       -1 },
 +	{ "Steam",            NULL,      "Steam",     1 << 7,            False,       -1 },
 +	{ "Steam",            NULL,      "Friends",   1 << 7,            False,       -1 },
 +	{ "Firefox",          NULL,       NULL,       1 << 8,            False,       -1 },
++	{ "qemu-system-i386", NULL,       NULL,       NULL,              True,        -1 },
 +	{ MINECRAFTC,         NULL,       NULL,       NULL,              True,        -1 },
  };
  
  /* layout(s) */
-@@ -37,7 +47,7 @@
+@@ -37,7 +48,7 @@
  };
  
  /* key definitions */
@@ -56,7 +56,7 @@ diff -u a/config.def.h b/config.def.h
  #define TAGKEYS(KEY,TAG) \
  	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
  	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
-@@ -48,13 +58,29 @@
+@@ -48,13 +59,29 @@
  #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
  
  /* commands */
@@ -88,7 +88,7 @@ diff -u a/config.def.h b/config.def.h
  	{ MODKEY,                       XK_b,      togglebar,      {0} },
  	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
  	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
-@@ -104,4 +130,3 @@
+@@ -104,4 +131,3 @@
  	{ ClkTagBar,            MODKEY,         Button1,        tag,            {0} },
  	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
  };
