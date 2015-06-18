@@ -1,0 +1,23 @@
+pkgbase = dwm
+	pkgdesc = A dynamic window manager for X
+	pkgver = 6.0
+	pkgrel = 2
+	url = http://dwm.suckless.org
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = libx11
+	depends = libxinerama
+	source = http://dl.suckless.org/dwm/dwm-6.0.tar.gz
+	source = dwm-6.0-pango.diff
+	source = dwm-6.0-uselessgap.diff
+	source = dwm-6.0-config.diff
+	source = dwm.desktop
+	md5sums = 8bb00d4142259beb11e13473b81c0857
+	md5sums = 716e2d3c6ae39df74da56b7bc8807862
+	md5sums = 51f7c3d6a6305ba64a1e4b8b0979d821
+	md5sums = SKIP
+	md5sums = 939f403a71b6e85261d09fc3412269ee
+
+pkgname = dwm
+
