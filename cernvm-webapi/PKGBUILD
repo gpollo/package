@@ -1,5 +1,5 @@
 pkgname=cernvm-webapi
-pkgver=r195.d61ea39
+pkgver=r206.44badf3
 pkgrel=1
 pkgdesc="CernVM WebAPI Based on URI-Handlers"
 arch=('i686' 'x86_64')
