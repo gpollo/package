@@ -1,0 +1,6 @@
+[submodule "vpaint-git"]
+	path = vpaint-git
+	url = https://aur.archlinux.org/vpaint-git.git/
+[submodule "vpaint"]
+	path = vpaint
+	url = https://aur.archlinux.org/vpaint.git/
