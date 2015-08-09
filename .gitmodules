@@ -1,15 +1,20 @@
 [submodule "vpaint-git"]
 	path = vpaint-git
-	url = ssh+git://aur@aur.archlinux.org/vpaint-git.git/
+    url = https://aur.archlinux.org/vpaint-git.git/
+	pushurl = ssh+git://aur@aur.archlinux.org/vpaint-git.git/
 [submodule "vpaint"]
 	path = vpaint
-	url = ssh+git://aur@aur.archlinux.org/vpaint.git/
+    url = https://aur.archlinux.org/vpaint.git/ 
+	pushurl = ssh+git://aur@aur.archlinux.org/vpaint.git/
 [submodule "lib32-oniguruma"]
 	path = lib32-oniguruma
-	url = ssh+git://aur@aur.archlinux.org/lib32-oniguruma.git/
+    url = https://aur.archlinux.org/lib32-oniguruma.git/ 
+	pushurl = ssh+git://aur@aur.archlinux.org/lib32-oniguruma.git/
 [submodule "cernvm-webapi"]
 	path = cernvm-webapi
-	url = ssh+git://aur@aur.archlinux.org/cernvm-webapi.git/
+    url = https://aur.archlinux.org/cernvm-webapi.git/
+	pushurl = ssh+git://aur@aur.archlinux.org/cernvm-webapi.git/
 [submodule "spek-git"]
 	path = spek-git
-	url = ssh+git://aur@aur.archlinux.org/spek-git.git/
+    url = https://aur.archlinux.org/spek-git.git/
+	pushurl = ssh+git://aur@aur.archlinux.org/spek-git.git/
