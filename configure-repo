@@ -1,0 +1,18 @@
+#!/bin/bash
+
+CONFIGURATION=$(cat .gitmodules | tr "\n" " " | awk '$1=$1')
+DIRECTORY=$(pwd)
+
+while read LINE; do
+    SUBMODULE=$(echo "$LINE" | awk -v N=2 '{print $N}' | tr -d "\"")
+    PUSHURL=$(echo "$LINE" | awk -v N=11 '{print $N}')
+
+    if [[ ! $SUBMODULE ]]; then
+        continue
+    fi
+
+    printf "Setting push URL at %s at %s\n" $SUBMODULE $PUSHURL
+    cd $SUBMODULE
+    git remote set-url --push origin $PUSHURL
+    cd $DIRECTORY
+done < <(echo $CONFIGURATION | tr "[" "\n[" | tr -d "]")
