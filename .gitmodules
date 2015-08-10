@@ -18,3 +18,7 @@
     path = spek-git
     url = https://aur.archlinux.org/spek-git.git/
     pushurl = ssh+git://aur@aur.archlinux.org/spek-git.git/
+[submodule "bedup"]
+    path = bedup
+    url = https://aur.archlinux.org/bedup
+    pushurl = ssh+git://aur@aur.archlinux.org/bedup.git/
