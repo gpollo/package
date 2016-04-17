@@ -15,9 +15,9 @@
 -static const char selbgcolor[]      = "#005577";
 -static const char selfgcolor[]      = "#eeeeee";
 -static const unsigned int borderpx  = 1;        /* border pixel of windows */
-+static const char normbgcolor[]     = "#679816";
++static const char normbgcolor[]     = "#5294E2";
 +static const char normfgcolor[]     = "#3C3C3C";
-+static const char selbordercolor[]  = "#679816";
++static const char selbordercolor[]  = "#5294E2";
 +static const char selbgcolor[]      = "#F2F2F2";
 +static const char selfgcolor[]      = "#3C3C3C";
 +static const unsigned int borderpx  = 0;        /* border pixel of windows */
