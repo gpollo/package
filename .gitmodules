@@ -22,3 +22,7 @@
     path = bedup
     url = https://aur.archlinux.org/bedup
     pushurl = ssh+git://aur@aur.archlinux.org/bedup.git/
+[submodule "texlive-slashbox"]
+    path = texlive-slashbox
+    url = https://aur.archlinux.org/texlive-slashbox/
+    pushurl = ssh+git://aur@aur.archlinux.org/texlive-slashbox/
