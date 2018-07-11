@@ -1,32 +1,36 @@
 [submodule "vpaint-git"]
     path = vpaint-git
-    url = https://aur.archlinux.org/vpaint-git.git/
-    pushurl = ssh+git://aur@aur.archlinux.org/vpaint-git.git/
+    url = https://aur.archlinux.org/vpaint-git.git
+    pushurl = ssh+git://aur@aur.archlinux.org/vpaint-git.git
 [submodule "vpaint"]
     path = vpaint
-    url = https://aur.archlinux.org/vpaint.git/
-    pushurl = ssh+git://aur@aur.archlinux.org/vpaint.git/
+    url = https://aur.archlinux.org/vpaint.git
+    pushurl = ssh+git://aur@aur.archlinux.org/vpaint.git
 [submodule "lib32-oniguruma"]
     path = lib32-oniguruma
-    url = https://aur.archlinux.org/lib32-oniguruma.git/
-    pushurl = ssh+git://aur@aur.archlinux.org/lib32-oniguruma.git/
+    url = https://aur.archlinux.org/lib32-oniguruma.git
+    pushurl = ssh+git://aur@aur.archlinux.org/lib32-oniguruma.git
 [submodule "cernvm-webapi"]
     path = cernvm-webapi
-    url = https://aur.archlinux.org/cernvm-webapi.git/
-    pushurl = ssh+git://aur@aur.archlinux.org/cernvm-webapi.git/
+    url = https://aur.archlinux.org/cernvm-webapi.git
+    pushurl = ssh+git://aur@aur.archlinux.org/cernvm-webapi.git
 [submodule "spek-git"]
     path = spek-git
-    url = https://aur.archlinux.org/spek-git.git/
-    pushurl = ssh+git://aur@aur.archlinux.org/spek-git.git/
+    url = https://aur.archlinux.org/spek-git.git
+    pushurl = ssh+git://aur@aur.archlinux.org/spek-git.git
 [submodule "bedup"]
     path = bedup
-    url = https://aur.archlinux.org/bedup
-    pushurl = ssh+git://aur@aur.archlinux.org/bedup.git/
+    url = https://aur.archlinux.org/bedup.git
+    pushurl = ssh+git://aur@aur.archlinux.org/bedup.git
 [submodule "texlive-slashbox"]
     path = texlive-slashbox
-    url = https://aur.archlinux.org/texlive-slashbox/
-    pushurl = ssh+git://aur@aur.archlinux.org/texlive-slashbox/
+    url = https://aur.archlinux.org/texlive-slashbox
+    pushurl = ssh+git://aur@aur.archlinux.org/texlive-slashbox
 [submodule "canmatrix-git"]
 	path = canmatrix-git
 	url = https://aur.archlinux.org/canmatrix-git.git
-    pushurl = ssh+git://aur@aur.archlinux.org/canmatrix-git/
+    pushurl = ssh+git://aur@aur.archlinux.org/canmatrix-git
+[submodule "haskell-parsec-numbers"]
+	path = haskell-parsec-numbers
+	url = https://aur.archlinux.org/haskell-parsec-numbers.git
+    pushurl = ssh://aur@aur.archlinux.org/haskell-parsec-numbers.git
