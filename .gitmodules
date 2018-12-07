@@ -46,3 +46,7 @@
 	path = libpcanbasic
 	url = https://aur.archlinux.org/libpcanbasic.git
     pushurl = ssh://aur@aur.archlinux.org/libpcanbasic.git
+[submodule "libpcanbasic-jni"]
+	path = libpcanbasic-jni
+	url = https://aur.archlinux.org/libpcanbasic-jni.git
+    pushurl = ssh://aur@aur.archlinux.org/libpcanbasic-jni.git
