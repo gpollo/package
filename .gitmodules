@@ -38,3 +38,8 @@
 	path = peak-linux-driver
 	url = https://aur.archlinux.org/peak-linux-driver.git
     pushurl = ssh://aur@aur.archlinux.org/peak-linux-driver.git
+[submodule "peak-linux-headers"]
+	path = peak-linux-headers
+	url = https://aur.archlinux.org/peak-linux-headers.git
+    pushurl = ssh://aur@aur.archlinux.org/peak-linux-headers.git
+
