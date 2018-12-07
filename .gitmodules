@@ -42,4 +42,7 @@
 	path = peak-linux-headers
 	url = https://aur.archlinux.org/peak-linux-headers.git
     pushurl = ssh://aur@aur.archlinux.org/peak-linux-headers.git
-
+[submodule "libpcanbasic"]
+	path = libpcanbasic
+	url = https://aur.archlinux.org/libpcanbasic.git
+    pushurl = ssh://aur@aur.archlinux.org/libpcanbasic.git
