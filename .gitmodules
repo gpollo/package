@@ -34,3 +34,7 @@
 	path = haskell-parsec-numbers
 	url = https://aur.archlinux.org/haskell-parsec-numbers.git
     pushurl = ssh://aur@aur.archlinux.org/haskell-parsec-numbers.git
+[submodule "peak-linux-driver"]
+	path = peak-linux-driver
+	url = https://aur.archlinux.org/peak-linux-driver.git
+    pushurl = ssh://aur@aur.archlinux.org/peak-linux-driver.git
