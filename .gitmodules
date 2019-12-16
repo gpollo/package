@@ -50,3 +50,7 @@
 	path = libpcanbasic-jni
 	url = https://aur.archlinux.org/libpcanbasic-jni.git
     pushurl = ssh://aur@aur.archlinux.org/libpcanbasic-jni.git
+[submodule "nanopb-git"]
+    path = nanopb-git
+    url = https://aur.archlinux.org/nanopb-git.git
+    pushurl = ssh://aur@aur.archlinux.org/nanopb-git.git
