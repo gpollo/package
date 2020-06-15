@@ -58,3 +58,7 @@
     path = amlite
     url = https://aur.archlinux.org/amlite.git
     pushurl = ssh://aur@aur.archlinux.org/amlitegit
+[submodule "tagscanner"]
+    path = tagscanner
+    url = https://aur.archlinux.org/tagscanner.git
+    pushurl = ssh://aur@aur.archlinux.org/tagscanner
