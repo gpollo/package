@@ -66,3 +66,7 @@
     path = ti-pru-cgt
     url = https://aur.archlinux.org/ti-pru-cgt.git
     pushurl = ssh://aur@aur.archlinux.org/ti-pru-cgt
+[submodule "ti-pru-swpkg-git"]
+    path = ti-pru-swpkg-git
+    url = https://aur.archlinux.org/ti-pru-swpkg-git.git
+    pushurl = ssh://aur@aur.archlinux.org/ti-pru-swpkg-git
