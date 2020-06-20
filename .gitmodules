@@ -62,3 +62,7 @@
     path = tagscanner
     url = https://aur.archlinux.org/tagscanner.git
     pushurl = ssh://aur@aur.archlinux.org/tagscanner
+[submodule "ti-pru-cgt"]
+    path = ti-pru-cgt
+    url = https://aur.archlinux.org/ti-pru-cgt.git
+    pushurl = ssh://aur@aur.archlinux.org/ti-pru-cgt
