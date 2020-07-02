@@ -70,3 +70,7 @@
     path = ti-pru-swpkg-git
     url = https://aur.archlinux.org/ti-pru-swpkg-git.git
     pushurl = ssh://aur@aur.archlinux.org/ti-pru-swpkg-git
+[submodule "halcogen"]
+	path = halcogen
+	url = https://aur.archlinux.org/halcogen.git
+    pushurl = ssh://aur@aur.archlinux.org/halcogen
