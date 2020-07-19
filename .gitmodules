@@ -73,4 +73,8 @@
 [submodule "halcogen"]
 	path = halcogen
 	url = https://aur.archlinux.org/halcogen.git
-    pushurl = ssh://aur@aur.archlinux.org/halcogen
+    pushurl = ssh://aur@aur.archlinux.org/halcogen.git
+[submodule "ccstudio-arm-gnu-rm-toolchain"]
+    path = ccstudio-arm-gnu-rm-toolchain
+    url = https://aur.archlinux.org/ccstudio-arm-gnu-rm-toolchain.git
+    pushurl = ssh://aur@aur.archlinux.org/ccstudio-arm-gnu-rm-toolchain.git
