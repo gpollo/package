@@ -78,3 +78,7 @@
     path = ccstudio-arm-gnu-rm-toolchain
     url = https://aur.archlinux.org/ccstudio-arm-gnu-rm-toolchain.git
     pushurl = ssh://aur@aur.archlinux.org/ccstudio-arm-gnu-rm-toolchain.git
+[submodule "librseq-git"]
+    path = librseq-git
+    url = https://aur.archlinux.org/librseq-git.git
+    pushurl = ssh://aur@aur.archlinux.org/librseq-git.git
