@@ -82,3 +82,7 @@
     path = librseq-git
     url = https://aur.archlinux.org/librseq-git.git
     pushurl = ssh://aur@aur.archlinux.org/librseq-git.git
+[submodule "avnet-bdf-git"]
+    path = avnet-bdf-git
+    url = https://aur.archlinux.org/avnet-bdf-git.git
+    pushurl = ssh://aur@aur.archlinux.org/avnet-bdf-git.git
