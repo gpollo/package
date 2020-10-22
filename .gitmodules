@@ -86,3 +86,7 @@
     path = avnet-bdf-git
     url = https://aur.archlinux.org/avnet-bdf-git.git
     pushurl = ssh://aur@aur.archlinux.org/avnet-bdf-git.git
+[submodule "armeb-none-eabi-gcc75-linaro-bin"]
+    path = armeb-none-eabi-gcc75-linaro-bin
+    url = https://aur.archlinux.org/armeb-none-eabi-gcc75-linaro-bin.git
+    pushurl = ssh://aur@aur.archlinux.org/armeb-none-eabi-gcc75-linaro-bin.git
