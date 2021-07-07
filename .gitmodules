@@ -94,3 +94,7 @@
     path = yactfr-git
     url = https://aur.archlinux.org/yactfr-git.git
     pushurl = ssh://aur@aur.archlinux.org/yactfr-git.git
+[submodule "jacques-ctf-git"]
+    path = jacques-ctf-git
+    url = https://aur.archlinux.org/jacques-ctf-git.git
+    pushurl = ssh://aur@aur.archlinux.org/jacques-ctf-git.git
