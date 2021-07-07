@@ -90,3 +90,7 @@
     path = armeb-none-eabi-gcc75-linaro-bin
     url = https://aur.archlinux.org/armeb-none-eabi-gcc75-linaro-bin.git
     pushurl = ssh://aur@aur.archlinux.org/armeb-none-eabi-gcc75-linaro-bin.git
+[submodule "yactfr-git"]
+    path = yactfr-git
+    url = https://aur.archlinux.org/yactfr-git.git
+    pushurl = ssh://aur@aur.archlinux.org/yactfr-git.git
