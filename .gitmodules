@@ -71,8 +71,8 @@
     url = https://aur.archlinux.org/ti-pru-swpkg-git.git
     pushurl = ssh://aur@aur.archlinux.org/ti-pru-swpkg-git
 [submodule "halcogen"]
-	path = halcogen
-	url = https://aur.archlinux.org/halcogen.git
+    path = halcogen
+    url = https://aur.archlinux.org/halcogen.git
     pushurl = ssh://aur@aur.archlinux.org/halcogen.git
 [submodule "ccstudio-arm-gnu-rm-toolchain"]
     path = ccstudio-arm-gnu-rm-toolchain
@@ -102,3 +102,7 @@
     path = lttng-modules-dkms-git
     url = https://aur.archlinux.org/lttng-modules-dkms-git.git
     pushurl = ssh://aur@aur.archlinux.org/lttng-modules-dkms-git.git
+[submodule "antidote"]
+    path = antidote
+    url = https://aur.archlinux.org/antidote.git
+    pushurl = ssh://aur@aur.archlinux.org/antidote.git
