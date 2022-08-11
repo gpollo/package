@@ -106,3 +106,7 @@
     path = antidote
     url = https://aur.archlinux.org/antidote.git
     pushurl = ssh://aur@aur.archlinux.org/antidote.git
+[submodule "peak-lin-driver-dkms"]
+    path = peak-lin-driver-dkms
+    url = https://aur.archlinux.org/peak-lin-driver-dkms.git
+    pushurl = ssh://aur@aur.archlinux.org/peak-lin-driver-dkms.git
