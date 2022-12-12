@@ -110,3 +110,7 @@
     path = peak-lin-driver-dkms
     url = https://aur.archlinux.org/peak-lin-driver-dkms.git
     pushurl = ssh://aur@aur.archlinux.org/peak-lin-driver-dkms.git
+[submodule "jome-git"]
+    path = jome-git
+    url = https://aur.archlinux.org/jome-git.git
+    pushurl = ssh://aur@aur.archlinux.org/jome-git.git
